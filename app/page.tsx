@@ -164,8 +164,8 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
-                <Clock className="h-8 w-8 text-primary" />
+              <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
+                <Image src="/antique-pocket-watch-from-1510-peter-henlein-histo.jpg" alt="Historical pocket watch" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold mb-2">500 Years Old</h3>
               <p className="text-muted-foreground">
@@ -174,8 +174,13 @@ export default function HomePage() {
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
-                <Award className="h-8 w-8 text-primary" />
+              <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
+                <Image
+                  src="/omega-speedmaster-moon-watch-astronaut-spacewalk-1.jpg"
+                  alt="Omega Speedmaster moon watch"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <h3 className="text-xl font-bold mb-2">Moon Tested</h3>
               <p className="text-muted-foreground">
@@ -184,8 +189,8 @@ export default function HomePage() {
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
-                <Zap className="h-8 w-8 text-primary" />
+              <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
+                <Image src="/mechanical-watch-movement-300-components-gears-spr.jpg" alt="Watch movement components" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold mb-2">300+ Components</h3>
               <p className="text-muted-foreground">
@@ -194,8 +199,13 @@ export default function HomePage() {
             </div>
 
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
-                <TrendingUp className="h-8 w-8 text-primary" />
+              <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
+                <Image
+                  src="/patek-philippe-grandmaster-chime-luxury-watch-auct.jpg"
+                  alt="Patek Philippe Grandmaster Chime"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <h3 className="text-xl font-bold mb-2">$31 Million Record</h3>
               <p className="text-muted-foreground">
