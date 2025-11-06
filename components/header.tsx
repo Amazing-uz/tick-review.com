@@ -22,7 +22,7 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between px-4">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold tracking-tight">Watch-Hub</span>
+          <span className="text-2xl font-bold tracking-tight">Tick-Review.com</span>
         </Link>
 
         {/* Navigation */}
@@ -171,7 +171,7 @@ export function Header() {
                         href="/about"
                         className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                       >
-                        <div className="text-sm font-medium">About Watch-Hub</div>
+                        <div className="text-sm font-medium">About tick-review.com</div>
                       </Link>
                     </NavigationMenuLink>
                   </li>

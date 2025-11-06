@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button"
 import { Award, Users, Target, Heart } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "About Watch-Hub - Our Mission & Story | Expert Watch Reviews",
+  title: "About tick-review.com - Our Mission & Story | Expert Watch Reviews",
   description:
-    "Learn about Watch-Hub's mission to provide honest, expert watch reviews and help enthusiasts find their perfect timepiece through comprehensive testing and analysis.",
+    "Learn about tick-review.com's mission to provide honest, expert watch reviews and help enthusiasts find their perfect timepiece through comprehensive testing and analysis.",
 }
 
 export default function AboutPage() {
@@ -15,7 +15,7 @@ export default function AboutPage() {
       {/* Header */}
 
       <div className="container mx-auto px-4 py-16 max-w-4xl">
-        <h1 className="text-5xl font-bold mb-6">About Watch-Hub</h1>
+        <h1 className="text-5xl font-bold mb-6">About tick-review.com</h1>
         <p className="text-xl text-muted-foreground mb-12">
           Your trusted source for honest watch reviews, expert analysis, and the best Amazon deals on timepieces.
         </p>
@@ -26,9 +26,9 @@ export default function AboutPage() {
             Our Mission
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            At Watch-Hub, we believe that finding the perfect watch shouldn't be overwhelming. Whether you're searching
-            for your first timepiece or adding to an established collection, our mission is to provide clear, honest,
-            and comprehensive reviews that help you make informed decisions.
+            At tick-review.com, we believe that finding the perfect watch shouldn't be overwhelming. Whether you're
+            searching for your first timepiece or adding to an established collection, our mission is to provide clear,
+            honest, and comprehensive reviews that help you make informed decisions.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-6">
             We test and evaluate watches across all price ranges—from affordable everyday pieces to luxury
@@ -70,9 +70,9 @@ export default function AboutPage() {
             Our Community
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            Watch-Hub is more than just a review site—it's a community of watch enthusiasts who share a passion for
-            horology. We value your feedback, questions, and experiences. Our readers' insights often shape our content
-            and help fellow collectors make better decisions.
+            tick-review.com is more than just a review site—it's a community of watch enthusiasts who share a passion
+            for horology. We value your feedback, questions, and experiences. Our readers' insights often shape our
+            content and help fellow collectors make better decisions.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-6">
             Join our newsletter to stay updated on the latest reviews, industry news, and exclusive Amazon deals. We're

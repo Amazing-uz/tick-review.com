@@ -9,13 +9,13 @@ import { Star, Clock, TrendingUp, Award, Search, Target, Zap } from "lucide-reac
 import { articles } from "@/lib/articles-data"
 
 export const metadata: Metadata = {
-  title: "Watch-Hub - Expert Watch Reviews & Amazon Deals | Luxury & Affordable Timepieces",
+  title: "tick-review.com - Expert Watch Reviews & Amazon Deals | Luxury & Affordable Timepieces",
   description:
     "Discover the best watches with expert reviews, buying guides, and exclusive Amazon deals. From luxury Swiss watches to affordable everyday timepieces.",
   keywords:
     "watches, watch reviews, luxury watches, affordable watches, Amazon watches, Rolex, Omega, Seiko, watch buying guide",
   openGraph: {
-    title: "Watch-Hub - Expert Watch Reviews & Amazon Deals",
+    title: "tick-review.com - Expert Watch Reviews & Amazon Deals",
     description: "Your trusted source for watch reviews, comparisons, and the best Amazon deals on timepieces.",
     type: "website",
   },

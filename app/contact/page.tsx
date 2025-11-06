@@ -6,9 +6,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Mail, MessageSquare, Send } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Contact Watch-Hub - Get in Touch | Questions & Feedback",
+  title: "Contact tick-review.com - Get in Touch | Questions & Feedback",
   description:
-    "Have questions about watches or want to suggest a review? Contact the Watch-Hub team. We love hearing from fellow watch enthusiasts.",
+    "Have questions about watches or want to suggest a review? Contact the tick-review.com team. We love hearing from fellow watch enthusiasts.",
 }
 
 export default function ContactPage() {
@@ -36,8 +36,8 @@ export default function ContactPage() {
               <p className="text-muted-foreground mb-4">
                 For general questions, partnership opportunities, or media inquiries.
               </p>
-              <a href="mailto:hello@watchhub.com" className="text-primary hover:underline font-medium">
-                hello@watch-hub.net
+              <a href="mailto:hello@tick-review.com" className="text-primary hover:underline font-medium">
+                hello@tick-review.com
               </a>
             </CardContent>
           </Card>
@@ -53,8 +53,8 @@ export default function ContactPage() {
               <p className="text-muted-foreground mb-4">
                 Suggest a watch for us to review or share your own experiences.
               </p>
-              <a href="mailto:reviews@watchhub.com" className="text-primary hover:underline font-medium">
-                reviews@watch-hub.net
+              <a href="mailto:reviews@tick-review.com" className="text-primary hover:underline font-medium">
+                reviews@tick-review.com
               </a>
             </CardContent>
           </Card>

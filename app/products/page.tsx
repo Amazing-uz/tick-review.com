@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Star } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Featured Watches - Expert Reviews & Amazon Deals | Watch-Hub",
+  title: "Featured Watches - Expert Reviews & Amazon Deals | tick-review.com",
   description:
     "Browse our curated collection of featured watches with expert reviews and the best Amazon deals. From luxury timepieces to affordable everyday watches.",
   keywords: "featured watches, watch reviews, Amazon watch deals, luxury watches, affordable watches",

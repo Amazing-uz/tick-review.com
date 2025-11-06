@@ -212,7 +212,7 @@ export default function PrivacyPage() {
             </p>
             <div className="bg-muted p-6 rounded-lg">
               <p className="text-muted-foreground mb-2">
-                <strong>Email:</strong> privacy@watchhub.com
+                <strong>Email:</strong> privacy@tick-review.com
               </p>
               <p className="text-muted-foreground mb-2">
                 <strong>Contact Form:</strong>{" "}

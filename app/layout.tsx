@@ -11,17 +11,17 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "Watch-Hub - Expert Watch Reviews & Amazon Deals",
-    template: "%s | Watch-Hub",
+    default: "tick-review.com - Expert Watch Reviews & Amazon Deals",
+    template: "%s | tick-review.com",
   },
   description:
     "Discover the best watches with expert reviews, buying guides, and exclusive Amazon deals. From luxury Swiss watches to affordable everyday timepieces.",
   keywords:
     "watches, watch reviews, luxury watches, affordable watches, Amazon watches, Rolex, Omega, Seiko, Casio, watch buying guide, dive watches, dress watches",
-  authors: [{ name: "Watch-Hub Team" }],
-  creator: "Watch-Hub",
-  publisher: "Watch-Hub",
-  metadataBase: new URL("https://watchhub.com"),
+  authors: [{ name: "tick-review.com Team" }],
+  creator: "tick-review.com",
+  publisher: "tick-review.com",
+  metadataBase: new URL("https://tick-review.com"),
   icons: {
     icon: [{ url: "/favicon.ico" }, { url: "/icon.png", sizes: "192x192", type: "image/png" }],
     apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
@@ -29,14 +29,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://watchhub.com",
-    siteName: "Watch-Hub",
-    title: "Watch-Hub - Expert Watch Reviews & Amazon Deals",
+    url: "https://tick-review.com",
+    siteName: "tick-review.com",
+    title: "tick-review.com - Expert Watch Reviews & Amazon Deals",
     description: "Your trusted source for watch reviews, comparisons, and the best Amazon deals on timepieces.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Watch-Hub - Expert Watch Reviews & Amazon Deals",
+    title: "tick-review.com - Expert Watch Reviews & Amazon Deals",
     description: "Your trusted source for watch reviews, comparisons, and the best Amazon deals on timepieces.",
   },
   robots: {
