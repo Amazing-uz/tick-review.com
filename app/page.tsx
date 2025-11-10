@@ -23,13 +23,13 @@ export const metadata: Metadata = {
 
 const featuredProducts = [
   {
-    name: "Casio F91W Series",
-    slug: "casio-f91w-series",
+    name: "TID No.1 Men’s Watch",
+    slug: "tid-no.1-mens-watch",
     rating: 4.8,
     reviews: 2847,
-    image: "https://m.media-amazon.com/images/I/51mu4w1lJwL._AC_SX522_.jpg",
+    image: "https://m.media-amazon.com/images/I/51QuYGGL6HL._AC_SY535_.jpg",
     badge: "Best Value",
-    amazonLink: "https://amazon.com/dp/B0EXAMPLE1?tag=youraffid-20",
+    amazonLink: "https://www.amazon.com/TID-No-1-Mens-Watch-Scandinavian/dp/B0D7BTVPXJ",
   },
   {
     name: "SEIKO 5 Automatic Blue Dial Stainless Steel",
