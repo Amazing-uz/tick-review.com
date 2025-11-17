@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
-import { Star, Clock, TrendingUp, Award, Search, Target, Zap } from "lucide-react"
+import { Star, Clock, TrendingUp, Award, Search, Target, Zap } from 'lucide-react'
 import { articles } from "@/lib/articles-data"
 
 export const metadata: Metadata = {
@@ -23,13 +23,13 @@ export const metadata: Metadata = {
 
 const featuredProducts = [
   {
-    name: "TID No.1 Men’s Watch",
+    name: "TID No.1 Men's Watch",
     slug: "tid-no.1-mens-watch",
     rating: 4.8,
     reviews: 2847,
     image: "https://m.media-amazon.com/images/I/51QuYGGL6HL._AC_SY535_.jpg",
     badge: "Best Value",
-    amazonLink: "https://www.amazon.com/TID-No-1-Mens-Watch-Scandinavian/dp/B0D7BTVPXJ",
+    amazonLink: "https://www.amazon.com/TID-No-1-Mens-Watch-Scandinavian/dp/B0D7BTVPXJ?th=1&linkCode=ll1&tag=tickreviewcom-20&linkId=024b4d960c2a2889373c22e2febbba2b&language=en_US&ref_=as_li_ss_tl",
   },
   {
     name: "SEIKO 5 Automatic Blue Dial Stainless Steel",
@@ -38,7 +38,7 @@ const featuredProducts = [
     reviews: 1923,
     image: "https://m.media-amazon.com/images/I/61FgZRrx9UL._AC_SY741_.jpg",
     badge: "Editor's Choice",
-    amazonLink: "https://amazon.com/dp/B0EXAMPLE2?tag=youraffid-20",
+    amazonLink: "https://www.amazon.com/Seiko-SNXS77-Automatic-Silver-Bracelet/dp/B000KKO85S?&linkCode=ll1&tag=tickreviewcom-20&linkId=32037844f0f2512908d007e7f92f3bd6&language=en_US&ref_=as_li_ss_tl",
   },
   {
     name: "Citizen Men's Classic Quartz Watch",
@@ -47,7 +47,7 @@ const featuredProducts = [
     reviews: 3156,
     image: "https://m.media-amazon.com/images/I/81YJMXUexJL._AC_SY741_.jpg",
     badge: "Best Seller",
-    amazonLink: "https://amazon.com/dp/B0EXAMPLE3?tag=youraffid-20",
+    amazonLink: "https://www.amazon.com/Citizen-Mens-Quartz-Watch-BF0580-57L/dp/B008FG6ZRI?th=1&linkCode=ll1&tag=tickreviewcom-20&linkId=1ddef4e5827fca86944c47b21f9d3153&language=en_US&ref_=as_li_ss_tl",
   },
   {
     name: "Timex Men's Easy Reader Watch",
@@ -270,6 +270,11 @@ export default function HomePage() {
                         {product.rating} ({product.reviews.toLocaleString()} reviews)
                       </span>
                     </div>
+                    <Button asChild className="mt-auto w-full">
+                      <a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
+                        View on Amazon
+                      </a>
+                    </Button>
                   </div>
                 </CardContent>
               </Card>
