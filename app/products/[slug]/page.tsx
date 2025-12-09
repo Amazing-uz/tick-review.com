@@ -313,32 +313,32 @@ const products = [
 	},
 ]
 
-export async function generateMetadata(): Promise<Metadata> {
+// export async function generateMetadata(): Promise<Metadata> {
+// 	const params = useParams();
+// 	const slug = params.slug;
+// 	const product = products.find((p) => p.slug === slug)
+
+// 	if (!product) {
+// 		return {
+// 			title: "Product Not Found",
+// 		}
+// 	}
+
+// 	return {
+// 		title: `${product.name} Review | Tick-Review`,
+// 		description: product.description,
+// 		openGraph: {
+// 			title: `${product.name} Review`,
+// 			description: product.description,
+// 			images: [product.image],
+// 		},
+// 	}
+// }
+
+export default function ProductPage() {
 	const params = useParams();
 	const slug = params.slug;
 	const product = products.find((p) => p.slug === slug)
-
-	if (!product) {
-		return {
-			title: "Product Not Found",
-		}
-	}
-
-	return {
-		title: `${product.name} Review | Tick-Review`,
-		description: product.description,
-		openGraph: {
-			title: `${product.name} Review`,
-			description: product.description,
-			images: [product.image],
-		},
-	}
-}
-
-export default async function ProductPage({ params }: { params: { slug: string } }) {
-	const { slug } = await params
-	const product = products.find((p) => p.slug === slug)
-
 	if (!product) {
 		notFound()
 	}
