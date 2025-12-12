@@ -11,34 +11,6 @@ import { Star, Check, ArrowLeft, ExternalLink } from "lucide-react"
 
 const products = [
 	{
-		slug: "casio-f91w-series",
-		name: "Casio F91W Series",
-		rating: 4.8,
-		reviews: 2847,
-		image: "https://m.media-amazon.com/images/I/51mu4w1lJwL._AC_SX522_.jpg",
-		badge: "Best Value",
-		amazonLink: "",
-		price: "$29",
-		description:
-			"The Casio F91W is a legendary timepiece that has transcended its humble origins to become a cultural icon. Originally released in 1989, this digital watch represents the pinnacle of affordable, reliable timekeeping. Despite its incredibly low price point, the F91W delivers exceptional value and has earned a devoted following among watch enthusiasts, minimalists, and professionals alike. What makes the F91W so special is its combination of simplicity, durability, and functionality. The lightweight resin case weighs almost nothing on the wrist, making it perfect for all-day wear. The clear LCD display shows time, date, and day of the week at a glance, while the built-in LED backlight ensures visibility in low-light conditions. The watch includes a stopwatch function, daily alarm, and hourly time signal — all the essentials without unnecessary complications. Build quality is surprisingly robust for such an inexpensive watch. The resin case and acrylic crystal can withstand daily bumps and scratches, while the water resistance to 30m means you can wear it while washing hands or in light rain (though not for swimming). The battery life is exceptional, typically lasting 7+ years before needing replacement. The F91W has achieved cult status in the watch community. It's been worn by everyone from students to celebrities, from military personnel to tech enthusiasts. Its minimalist aesthetic works with any outfit — from casual jeans to business attire. One reviewer perfectly captured its appeal: 'This watch does exactly what it needs to do, nothing more, nothing less. It's reliable, lightweight, and costs less than lunch. What's not to love?' Whether you're looking for a backup watch, a beater for rough activities, or simply appreciate timeless design and unbeatable value, the Casio F91W is an absolute winner.",
-		features: [
-			"Case diameter: 38.2mm with ultra-thin 8.5mm profile",
-			"Lightweight resin case — weighs only 21 grams",
-			"Clear LCD display with day, date, and time",
-			"LED backlight for visibility in dark conditions",
-			"Stopwatch function with 1/100-second accuracy",
-			"Daily alarm and hourly time signal",
-			"Water resistance: 30m (splash resistant)",
-			"Battery life: approximately 7 years",
-			"Resin band with standard buckle closure",
-			"Micro-adjustment feature for perfect fit",
-		],
-		images: [
-			"https://m.media-amazon.com/images/I/51mu4w1lJwL._AC_SX522_.jpg",
-			"https://m.media-amazon.com/images/I/71S5YUJKG7L._AC_SX679_.jpg",
-		],
-	},
-	{
 		slug: "tid-no.1-mens-watch",
 		name: "TID No.1 Men's Watch",
 		rating: 4.8,
@@ -52,7 +24,7 @@ const products = [
 		features: [
 			"Brand: TID Watches (Stockholm, Sweden).",
 			"Model: No.1 (often seen as TID No.1).",
-			"WCase material: 316L stainless steel (in many versions).",
+			"Case material: 316L stainless steel (in many versions).",
 			"Crystal: Mineral glass (in this price segment).",
 			"Movement: Japanese quartz (Miyota 2035).",
 			"Water resistance: 5 ATM / ~50 m suitable for everyday wear.",
@@ -112,8 +84,8 @@ const products = [
 		],
 	},
 	{
-		name: "Timex Men's Easy Reader Watch",
 		slug: "timex-mens-easy-reader-watch",
+		name: "Timex Men's Easy Reader Watch",
 		rating: 4.8,
 		reviews: 5234,
 		image: "https://m.media-amazon.com/images/I/71S-CCwawqL._AC_SY550_.jpg",
@@ -137,8 +109,8 @@ const products = [
 		],
 	},
 	{
-		name: "Tissot Supersport Chrono",
 		slug: "tissot-supersport-chrono",
+		name: "Tissot Supersport Chrono",
 		rating: 4.6,
 		reviews: 4521,
 		image: "https://m.media-amazon.com/images/I/81QI4SufOjL._AC_SX679_.jpg",
@@ -164,8 +136,8 @@ const products = [
 		],
 	},
 	{
-		name: "Bulova Men's Classic Sutton 4-Hand Automatic Watch",
 		slug: "bulova-mens-classic-sutton-4-hand-automatic-watch",
+		name: "Bulova Men's Classic Sutton 4-Hand Automatic Watch",
 		rating: 4.9,
 		reviews: 1456,
 		image: "https://m.media-amazon.com/images/I/71fLKaBwOAL._AC_SX679_.jpg",
@@ -311,7 +283,209 @@ const products = [
 		],
 		images: ["https://m.media-amazon.com/images/I/81WPtR+9qEL._AC_SY695_.jpg"],
 	},
-]
+	{
+		slug: "osprey-daylite-expandable-travel-pack",
+		name: "Osprey Daylite Expandable 26+6 Travel Pack, Black",
+		rating: 4.8,
+		reviews: 1456,
+		image: "https://m.media-amazon.com/images/I/61hRlArltnL._AC_SL1500_.jpg",
+		badge: "Best Carry-On",
+		amazonLink: "https://www.amazon.com/Osprey-Daylite-Expandable-Travel-Black/dp/B0CN1JCRSD?th=1&linkCode=ll1&tag=tickreviewcom-20&linkId=d1a0a80f75fc62df8fbcf2ff23e0073f&language=en_US&ref_=as_li_ss_tl",
+		price: "$129",
+		description:
+			"The Osprey Daylite Expandable 26+6 is the ultimate versatile daypack for travel. With 26 liters of main volume plus an expandable 6-liter section, it easily adapts to short trips or everyday use. Built with Osprey's legendary durability, it features a padded laptop sleeve (up to 16”), breathable back panel, and multiple organizational pockets. Perfect as a personal item on flights or a reliable daily backpack.",
+		features: [
+			"26L + 6L expandable capacity",
+			"Padded laptop sleeve (up to 16”)",
+			"Breathable mesh back panel",
+			"Multiple zippered pockets and key clip",
+			"Side compression straps and top handle",
+			"Made from durable recycled materials",
+		],
+		images: [
+			"https://m.media-amazon.com/images/I/61hRlArltnL._AC_SL1500_.jpg",
+		],
+	},
+	{
+		slug: "wrangler-hardside-spinner-luggage",
+		name: "Wrangler Hardside Spinner Luggage, Blue Heaven, Carry-On 20-Inch",
+		rating: 4.7,
+		reviews: 3210,
+		image: "https://m.media-amazon.com/images/I/81afxA+BHcL._AC_SL1500_.jpg",
+		badge: "Best Budget Luggage",
+		amazonLink: "https://www.amazon.com/Wrangler-Spinner-Carry-Luggage-Heaven/dp/B0C7Y5NGMY?th=1&linkCode=ll1&tag=tickreviewcom-20&linkId=de40882e3c7637173254d10d1c982259&language=en_US&ref_=as_li_ss_tl",
+		price: "$69",
+		description:
+			"This 20-inch Wrangler carry-on spinner offers excellent value with its durable ABS hardshell, smooth 360° wheels, and TSA-approved lock. Lightweight yet sturdy, it fits most airline overhead bins and provides ample space for a weekend trip. The vibrant Blue Heaven color adds style without sacrificing practicality.",
+		features: [
+			"20-inch carry-on size (22 x 14 x 9 inches)",
+			"ABS hardshell for impact resistance",
+			"360° double spinner wheels",
+			"TSA-approved combination lock",
+			"Interior compression straps and mesh pocket",
+			"Expandable for extra packing space",
+		],
+		images: [
+			"https://m.media-amazon.com/images/I/81afxA+BHcL._AC_SL1500_.jpg",
+		],
+	},
+	{
+		slug: "kitsch-continuous-spray-bottle",
+		name: "Kitsch Continuous Spray Bottle for Hair – Terracotta, 150ml",
+		rating: 4.8,
+		reviews: 2874,
+		image: "https://m.media-amazon.com/images/I/51u3yqZIjWL._AC_SL1250_.jpg",
+		badge: "Best Hair Spray Bottle",
+		amazonLink: "https://www.amazon.com/Kitsch-Spray-Bottle-Hair-Hairstyling/dp/B0CVZWMD34?th=1&linkCode=ll1&tag=tickreviewcom-20&linkId=0255dc972afc5637c52110d1909fcafd&language=en_US&ref_=as_li_ss_tl",
+		price: "$12",
+		description:
+			"The Kitsch Continuous Mist Spray Bottle delivers a fine, even mist perfect for hair styling, plants, or cleaning. Made from recycled plastic, it features a continuous spray mechanism that works in any position — great for quick wet-downs or misting. The stylish terracotta color looks great on any vanity.",
+		features: [
+			"150ml capacity",
+			"Fine continuous mist spray",
+			"Works upside-down",
+			"Made from recycled materials",
+			"BPA-free and leak-proof",
+			"Ideal for hair, skin, plants & cleaning",
+		],
+		images: [
+			"https://m.media-amazon.com/images/I/51u3yqZIjWL._AC_SL1250_.jpg",
+		],
+	},
+	{
+		slug: "18pack-tsa-approved-travel-bottles",
+		name: "18-Pack TSA-Approved Silicone Travel Bottles",
+		rating: 4.7,
+		reviews: 4123,
+		image: "https://m.media-amazon.com/images/I/61Y+Leafr0L._SL1138_.jpg",
+		badge: "Best Toiletry Set",
+		amazonLink: "https://www.amazon.com/Toiletries-Approved-Containers-Conditioner-Essentials/dp/B0BZWMJM2F?th=1&linkCode=ll1&tag=tickreviewcom-20&linkId=eda9bdcb9ab793a7c38a9661232afd8d&language=en_US&ref_=as_li_ss_tl",
+		price: "$19",
+		description:
+			"This 18-piece set of leak-proof silicone travel bottles is TSA-approved and perfect for carrying shampoo, conditioner, lotion, and more. Includes flip caps, spray caps, and pump tops so you can customize for any liquid. Durable, lightweight, and reusable — a must-have for every traveler.",
+		features: [
+			"18 bottles + 4 accessories (flip, spray, pump, funnel)",
+			"3 oz / 89 ml each — TSA compliant",
+			"Food-grade silicone, BPA-free",
+			"Leak-proof and collapsible",
+			"Clear labels included",
+		],
+		images: [
+			"https://m.media-amazon.com/images/I/61Y+Leafr0L._SL1138_.jpg",
+		],
+	},
+	{
+		slug: "coid-ea-waterproof-shoe-bags",
+		name: "COIDEA Waterproof Travel Drawstring Shoe Bags (5-Pack)",
+		rating: 4.8,
+		reviews: 1987,
+		image: "https://m.media-amazon.com/images/I/616K24V+mkL._AC_SL1500_.jpg",
+		badge: "Best Shoe Organizers",
+		amazonLink: "https://www.amazon.com/COIDEA-Drawstring-Waterproof-Dustproof-Portable/dp/B0C6X2VP9R?th=1&linkCode=ll1&tag=tickreviewcom-20&linkId=65c8f9e835fea20f7dacb9e59056cf47&language=en_US&ref_=as_li_ss_tl",
+		price: "$15",
+		description:
+			"Keep your suitcase clean with these waterproof drawstring shoe bags. Made of durable, transparent material, they protect shoes from dirt and moisture while keeping everything organized. Perfect size for sneakers, dress shoes, or heels.",
+		features: [
+			"Set of 5 bags",
+			"15.7 x 11.8 inches each",
+			"Waterproof and dustproof",
+			"Strong drawstring closure",
+			"Transparent for easy identification",
+		],
+		images: [
+			"https://m.media-amazon.com/images/I/616K24V+mkL._AC_SL1500_.jpg",
+		],
+	},
+	{
+		slug: "bagail-8-set-packing-cubes",
+		name: "BAGAIL 8 Set Packing Cubes – Cream",
+		rating: 4.8,
+		reviews: 5678,
+		image: "https://m.media-amazon.com/images/I/61aFuRVWe3L._AC_SL1280_.jpg",
+		badge: "Best Packing Cubes",
+		amazonLink: "https://www.amazon.com/BAGAIL-Packing-Lightweight-Organizers-Toiletry/dp/B08S35399Y?th=1&linkCode=ll1&tag=tickreviewcom-20&linkId=0ca4812937ae228bfe8cf806621d55d1&language=en_US&ref_=as_li_ss_tl",
+		price: "$29",
+		description:
+			"These lightweight, durable packing cubes help you pack more efficiently and stay organized. The 8-piece set includes multiple sizes and a laundry bag. Breathable mesh tops make it easy to see contents, and the cream color adds a premium look.",
+		features: [
+			"8 pieces (various sizes)",
+			"Breathable mesh top",
+			"Compression zippers",
+			"Includes laundry bag",
+			"Lightweight ripstop nylon",
+		],
+		images: [
+			"https://m.media-amazon.com/images/I/61aFuRVWe3L._AC_SL1280_.jpg",
+		],
+	},
+	{
+		slug: "teyssor-spray-bottles-2-pack",
+		name: "Teyssor Spray Bottles – 2 Pack, 300ml",
+		rating: 4.7,
+		reviews: 2341,
+		image: "https://m.media-amazon.com/images/I/61sSGzCNGbL._AC_SL1500_.jpg",
+		badge: "Best Value Spray Bottles",
+		amazonLink: "https://www.amazon.com/Teyssor-Mister-Water-Spray-Bottle/dp/B0D22PPZCL?th=1&linkCode=ll1&tag=tickreviewcom-20&linkId=5f41e23b78673d2bb9b7c21000585ead&language=en_US&ref_=as_li_ss_tl",
+		price: "$11",
+		description:
+			"Two 300ml BPA-free plastic spray bottles with adjustable nozzles for fine mist or stream. Perfect for hair, cooking, cleaning, or plants. Durable and leak-proof with a comfortable trigger.",
+		features: [
+			"2 × 300ml bottles",
+			"Adjustable nozzle (mist to stream)",
+			"BPA-free plastic",
+			"Ergonomic trigger",
+			"Leak-proof design",
+		],
+		images: [
+			"https://m.media-amazon.com/images/I/61sSGzCNGbL._AC_SL1500_.jpg",
+		],
+	},
+	{
+		slug: "bagsmart-toiletry-bag",
+		name: "BAGSMART Toiletry Bag with Hanging Hook – Black, Medium",
+		rating: 4.8,
+		reviews: 3987,
+		image: "https://m.media-amazon.com/images/I/61gMY7ZvcrL._SL1500_.jpg",
+		badge: "Best Toiletry Organizer",
+		amazonLink: "https://www.amazon.com/Water-resistant-Organizer-Accessories-Container-Toiletries/dp/B07SL2RKJK?th=1&linkCode=ll1&tag=tickreviewcom-20&linkId=e046a8b121a016f9834baed8c3ba17bf&language=en_US&ref_=as_li_ss_tl",
+		price: "$25",
+		description:
+			"This water-resistant toiletry bag features a hanging hook, multiple compartments, and plenty of space for full-size bottles. The transparent pockets make it easy to find what you need, and the compact design fits perfectly in luggage.",
+		features: [
+			"Water-resistant material",
+			"Hanging hook for convenience",
+			"Multiple zippered compartments",
+			"Transparent pockets for visibility",
+			"Compact yet spacious (medium size)",
+		],
+		images: [
+			"https://m.media-amazon.com/images/I/61gMY7ZvcrL._SL1500_.jpg",
+		],
+	},
+	{
+		slug: "osprey-daylite-expandable-travel-pack-black-2",
+		name: "Osprey Daylite Expandable 26+6 Travel Pack, Black",
+		rating: 4.8,
+		reviews: 1456,
+		image: "https://m.media-amazon.com/images/I/61hRlArltnL._AC_SL1500_.jpg",
+		badge: "Best Carry-On",
+		amazonLink: "https://www.amazon.com/Osprey-Daylite-Expandable-Travel-Black/dp/B0CN1JCRSD?th=1&linkCode=ll1&tag=tickreviewcom-20&linkId=b3adb5b5486101465e98086e8801e19c&language=en_US&ref_=as_li_ss_tl",
+		price: "$129",
+		description:
+			"The Osprey Daylite Expandable 26+6 is the ultimate versatile daypack for travel. With 26 liters of main volume plus an expandable 6-liter section, it easily adapts to short trips or everyday use. Built with Osprey's legendary durability, it features a padded laptop sleeve (up to 16”), breathable back panel, and multiple organizational pockets. Perfect as a personal item on flights or a reliable daily backpack.",
+		features: [
+			"26L + 6L expandable capacity",
+			"Padded laptop sleeve (up to 16”)",
+			"Breathable mesh back panel",
+			"Multiple zippered pockets and key clip",
+			"Side compression straps and top handle",
+			"Made from durable recycled materials",
+		],
+		images: [
+			"https://m.media-amazon.com/images/I/61hRlArltnL._AC_SL1500_.jpg",
+		],
+	},
+];
 
 // export async function generateMetadata(): Promise<Metadata> {
 // 	const params = useParams();
